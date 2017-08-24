@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.1.1</Version>
+    <Authors>PM Extra</Authors>
+    <Company>Shanghai Mowa Inforamtion Technology Co., Ltd.</Company>
+    <Product>MowaInfo.RoleSet</Product>
+    <PackageLicenseUrl>https://choosealicense.com/licenses/gpl-3.0</PackageLicenseUrl>
+    <Copyright>Copyright © 2017 MowaInfo. All Rights Reserved.</Copyright>
+    <RepositoryUrl>https://github.com/PMExtra/MowaInfo.RoleSet</RepositoryUrl>
+    <PackageTags>MowaInfo Identity Role RoleSet RoleManager</PackageTags>
+    <PackageProjectUrl>https://github.com/PMExtra/MowaInfo.RoleSet</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>
